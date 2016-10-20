@@ -1,0 +1,303 @@
+/*
+	Seth Moyes Style Sheet
+	Author: Seth Moyes
+	Date: 8-10-16
+
+Color Pallete URL: http://paletton.com/#uid=13z0u0k2XH400++05Yn9GtPoemA
+Secondary: http://paletton.com/palette.php?uid=12P0u0k00Dv00Dvrbz3HzkuM-c2
+Other Links:
+	*/
+
+/* Layout Styles */
+#layout {
+  margin: 2px 2% 2px 2%;
+  border:solid medium #23382A;
+  border-radius: 5px;
+  background-color: rgb(0, 7, 0);
+  min-width: 800px;
+}
+
+
+
+
+  /* Body styles */
+    body {
+          background-repeat: no-repeat;
+          background-size: 100%;
+          font-family: Helvetica,Arial,sans-serif;
+          font-size: 1em;
+          text-align: center;
+          margin: 0px 0px 0px 0px;
+          padding: 20px 20px 20px 20px;
+          background-image: url(background.jpg);
+        	background-attachment: fixed;
+          background-size: cover;
+
+
+}
+
+.face img {
+
+max-width: 600px;
+max-height: 600px;
+padding: 2px 2px 2px 2px;
+border:solid medium black;
+float:right;
+
+}
+
+.face p {
+  margin: auto;
+  color: white;
+  font-size: 2em;
+  min-width: 610px;
+  min-height: 610px;
+  height: auto;
+  width: auto;
+  padding: 2px 2px 2px 2px;
+}
+
+#faceP {
+    border: solid medium white;
+}
+
+.face h4 {
+color:white;
+font-size: 2em;
+}
+
+#content {
+padding:10px 10px 10px 10px;
+}
+
+#tagline {
+  font-style: italic;
+  font-family: helvetica;
+  font-size: 2em;
+}
+
+.blurb {
+  background-color: rgb(0, 7, 0);
+  border: solid 1px white;
+  color:white;
+  font-size: 1.2em;
+
+  padding: 2px 2px 2px 2px;
+
+}
+
+.blurb h3 {
+  padding: 2px 2px 2px 2px;
+  background-color: rgb(234, 224, 200);
+  color: black;
+}
+
+.denver {
+  max-width: 100%;
+  max-height: 914px;
+  width:auto;
+  height: auto;
+  position:relative;
+
+
+}
+
+#about {
+background-color: grey;
+height: 675px;
+width: auto;
+margin-bottom: 20px;
+
+}
+
+
+#content h3 {
+  color:white;
+}
+
+.services {
+  background-color: black;
+}
+
+#services {
+  background-color: black;
+}
+
+/* Services Styles */
+
+.face h4 {
+background-color: black;
+margin: auto;
+
+}
+
+.services > h3 {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 2px;
+  padding-left: 0px;
+  padding-right: 0px;
+  display: block;
+
+}
+
+.services h1 {
+  color:white;
+
+}
+
+.services h3 {
+  background-color: black;
+}
+
+.services {
+  background-color: rgb(234, 224, 200);
+}
+
+#services p {
+color: white;
+
+}
+.services {
+  margin-top: 20px;
+max-width: 70%;
+margin-left: auto;
+margin-right: auto;
+border: solid white;
+padding-bottom: 0px;
+margin-bottom: 0px;
+height: 350px;
+}
+
+
+.services h1 {
+  margin-top: 200px;
+  padding-top: 200px;
+}
+
+
+.services > img{
+margin-top: 0px;
+margin-left: 0px;
+margin-right: 0px;
+padding-top: 2px;
+padding-left: 0px;
+padding-right: 0px;
+  display: inline;
+  width: 100%;
+}
+
+#services h1, #about h1 {
+  background-color: rgb(234, 224, 200);
+}
+
+
+
+
+
+
+
+
+/* Navigation Styles */
+nav {
+  background-color: rgb(0, 7, 0);
+  padding: 5px 20px 25px 20px;
+  margin:2px 2% 2px 2%;
+
+}
+
+nav li,p {
+  display:inline;
+}
+
+nav li, a {
+  color:white;
+  font-size: 18px;
+  font-weight: bold;
+  float:right;
+  text-decoration: none;
+  padding: 0px 10px 0px 10px;
+  display: static;
+}
+
+.aboutLink:hover, .servLink:hover{
+  background-color: purple;
+}
+
+.facebook:hover {
+  background-color:none;
+
+}
+
+.link:hover{
+  background-color: purple;
+}
+
+.sublink:hover{
+  background-color: purple;
+}
+
+.sublink:hover {
+background-color: purple;
+}
+
+.seth:hover{
+  background-color: purple;
+}
+
+.seth {
+  color:white;
+  font-size: 18px;
+  font-weight: bold;
+  float:left;
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: none;
+}
+
+nav li a img {
+  max-width: 30px;
+  max-height: 30px;
+  position:relative;
+  bottom: 11px;
+}
+
+#aboutfix {
+  padding: 0px 0px 0px 0px;
+}
+
+
+/* Dropdown Styles
+.drop {
+    position: relative;
+    display: inline-block;
+}
+
+.dropcont {
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 365px;
+    background-color: black;
+    min-width: 170px;
+    width: auto;
+    box-shadow: 0px 8px 16px 0px rgb(255,255,255);
+    padding: 12px 16px;
+    z-index: 1;
+    border: solid 1px white;
+}
+
+.dropcont a {
+float:left;
+position:static;
+right: 50px;
+}
+
+
+.drop:hover .dropcont {
+    display: block;
+}
+
+*/
